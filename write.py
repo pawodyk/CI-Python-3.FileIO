@@ -1,6 +1,7 @@
-#writeing file
+# writeing file
 f = open('newfile.txt', 'w')
-f.write("Hello")
+lines = ['Hello', 'World', 'Welcome', 'To', 'File IO']
+f.writelines(lines)
 f.close()
 
 # appending to file
